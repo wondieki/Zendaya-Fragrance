@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height:100vh;
+    background: linear-gradient(90deg, #a0a168c5, #da8585);
   }
 
   .background image{
@@ -14,7 +15,7 @@ body {
   }
   .navbar {
     
-    background-color:#9b9696;
+    background-color:white;
     position: fixed;
     top: 10;
     left: 50%;
@@ -25,7 +26,7 @@ body {
 
 
   nav.logo p{
-    font-size: 30px;
+    font-size: 80px;
     font-weight: bold;
     float: left;
     color: rgb(184, 158, 13);
@@ -52,3 +53,9 @@ body {
     
   }
   
+  .text-container {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+
+  }
