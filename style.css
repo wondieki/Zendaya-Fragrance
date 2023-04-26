@@ -1,23 +1,30 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg, #a0a168c5, #da8585);
     height:100vh;
-
   }
 
- 
-  
+  .background image{
+    background-image: url("https://www.pinterest.com/pin/44121271342808131/");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+  }
   .navbar {
-    background-color: #9b9696;
+    
+    background-color:#9b9696;
     position: fixed;
-    top: 0;
+    top: 10;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
+    height:100px;
   }
 
-  navbar.logo p{
+
+  nav.logo p{
     font-size: 30px;
     font-weight: bold;
     float: left;
@@ -25,7 +32,7 @@ body {
     text-transform: uppercase;
     padding-left: 20px;
     text-align:left;
-    letter-spacing: 2.5px;
+    letter-spacing: 1.5px;
     cursor: pointer;
     
     }
@@ -35,15 +42,13 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 2.5px;
   }
   
   .navbar ul li {
     display: inline-block;
+    justify-content:center;
+    
   }
   
-  .navbar ul li a {
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    padding: 14px 16px;
-  }
