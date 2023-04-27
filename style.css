@@ -116,11 +116,13 @@ body {
     gap: 20px; /* Add some spacing between the images */
     height:500px;
     width:400px;
+    border-radius: 40px;
   }
   .card1, .card2, .card3, .card4 {
     flex: 0 auto;
     margin-right: 20px;
-    margin-left: 50px;
+    margin-left: 55px;
+    
     
   }
 
