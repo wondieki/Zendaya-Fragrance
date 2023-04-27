@@ -2,33 +2,33 @@
   "perfumes": [
     {
       "id": "1",
-      "title": "The Giant Gila Monster",
-      "runtime": "108",
-      "capacity": 30,
-      "showtime": "04:00PM",
-      "tickets_sold": 27,
-      "description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "title": "Dior J'adore Eau de Parfum",
+      "Top Notes": "Pear, melon, magnolia, peach, Mandarin orange and bergamot.",
+      "description": "An iconic House of Dior perfume for women, J'adore Eau de Parfum is an irresistibly seductive floral composition.",
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
     },
     {
       "id": "2",
-      "title": "Manos: The Hands Of Fate",
-      "runtime": "118",
-      "capacity": 50,
-      "showtime": "06:45PM",
-      "tickets_sold": 44,
-      "description": "A family gets lost on the road and stumbles upon a hidden, underground, devil-worshiping cult led by the fearsome Master and his servant Torgo.",
-      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+      "title": "Chanel Coco Mademoiselle Eau de Parfum",
+      "Top Notes": "Patchouli and vetiver.",
+      "description": "An absolutely modern composition with a strong yet surprisingly fresh character. Sparks of fresh and vibrant Orange immediately awaken the senses.",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
     },
+   
     {
       "id": "3",
-      "title": "Time Chasers",
-      "runtime": "93",
-      "capacity": 50,
-      "showtime": "09:30PM",
-      "tickets_sold": 31,
-      "description": "An inventor comes up with a time machine, but must prevent its abuse at the hands of an evil C.E.O.",
-      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/23342/p23342_v_v8_ab.jpg"
+      "title": "Tom Ford Black Orchid Eau de Parfum",
+      "Top Notes": "Truffle, gardenia, black currant, Ylang-Ylang, jasmine, bergamot, Mandarin orange and Amalfi lemon.",
+      "description": "Black Orchid Eau De Parfum opens with aphrodisiacal black truffle and narcotic ylang ylang—touched with effervescent bergamot and bitter orange. Rum-soaked, sweet black plum surrounds the perfume‘s black orchid extract, while woody patchouli and creamy vanilla wrap the orchid in rich warmth.",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Lancome La Vie Est Belle Eau de Parfum",
+      "Top Notes": "Blackcurrant and pear.",
+      "description": "This floral perfume entwines iris, patchouli, and Arabian jasmine sambac with sweet notes of orange blossom, warm vanilla, and spun sugar. ",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
     }
+
   ]
 }
