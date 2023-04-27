@@ -2,20 +2,19 @@ body {
     margin: 0;
     padding: 0;
     height:100vh;
-    background: linear-gradient(90deg, #a0a168c5, #da8585);
   }
 
   .background image{
-    background-image: url("https://www.pinterest.com/pin/44121271342808131/");
+    background-image: url("https://www.google.com/search?q=full+screen+design+wallpaper+for+perfumes&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiQsrnxu8j-AhVkIMUKHcsZDkcQ_AUoAXoECAEQAw&biw=1920&bih=910&dpr=1#imgrc=K-d4jF09oYyu2M");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 100%;
-    height: 100%;
+    width: 1000%;
+    height:1000%;
   }
   .navbar {
     
-    background-color:white;
+    background-color:rgb(247, 105, 105);
     position: fixed;
     top: 10;
     left: 50%;
@@ -23,39 +22,77 @@ body {
     width: 100%;
     height:100px;
   }
-
-
-  nav.logo p{
-    font-size: 80px;
-    font-weight: bold;
-    float: left;
-    color: rgb(184, 158, 13);
-    text-transform: uppercase;
-    padding-left: 20px;
-    text-align:left;
-    letter-spacing: 1.5px;
-    cursor: pointer;
-    
-    }
-
-  .navbar ul {
-    list-style-type: none;
+  .logo{
+    width:50%;
+    cursor:pointer;
     margin: 0;
     padding: 0;
+    height:50px;
+  }
+  h1{
+    color:rgb(8, 2, 2);
+    text-align:t;
+    width:120%;
+    height:50px;
+    margin: 20px;
+    padding: 20px;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: -20px;
+    padding: -20px;
     text-align: center;
     text-transform:uppercase;
     letter-spacing: 2.5px;
-  }
-  
-  .navbar ul li {
-    display: inline-block;
-    justify-content:center;
     
   }
-  
-  .text-container {
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.5;
 
+  .navbar ul li {
+    display: inline-block;
+    justify-content:center; 
   }
+
+  .navbar ul li a {
+    color:black;
+  }
+
+  
+  
+  .text-overlay{
+    position: absolute;
+    top: 10%; /* adjust the vertical position */
+    right: 45%; /* position the text on the right side */
+    transform: translate(100%, 100%); /* center the text vertically */
+    font-size: 54px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .info{
+    position: absolute;
+    top: 20%; /* adjust the vertical position */
+    right: 55.5%; /* position the text on the right side */
+    transform: translate(130%, 130%); /* center the text vertically */
+    font-size: 24px;
+    color:  black;
+  }
+  
+  button{
+    width:180px;
+    color:#000;
+    font-size:12px;
+    padding:12px 0;
+    border:0;
+    border-radius:20px;
+    outline:none;
+    margin-top:90px;
+    position: absolute;
+    left:59.5%;
+    top: 36%;
+    transform: translate(-50%, -50%);
+}
+  
+  
