@@ -1,16 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    height:100vh;
+    height:100%;
   }
 
-  .background image{
-    background-image: url("https://www.google.com/search?q=full+screen+design+wallpaper+for+perfumes&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiQsrnxu8j-AhVkIMUKHcsZDkcQ_AUoAXoECAEQAw&biw=1920&bih=910&dpr=1#imgrc=K-d4jF09oYyu2M");
+  .background-image {
+    background-image: url("/home/wondieki/Desktop/project/images/wilder.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: 1000%;
-    height:1000%;
+    width: 100%;
+    height: 100%;
   }
   .navbar {
     
@@ -60,68 +60,79 @@ body {
     color:black;
   }
 
-  
-  
-  .text-overlay{
+  .text-overlay h2 {
     position: absolute;
-    top: 10%; /* adjust the vertical position */
-    right: 45%; /* position the text on the right side */
-    transform: translate(100%, 100%); /* center the text vertically */
-    font-size: 54px;
-    color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-
-  .info{
-    position: absolute;
-    top: 20%; /* adjust the vertical position */
-    right: 55.5%; /* position the text on the right side */
-    transform: translate(130%, 130%); /* center the text vertically */
-    font-size: 24px;
-    color:  black;
+    font-size: 3rem;
+    margin-bottom: rem;
+    width: 50px;;
+    height:100px;
+    
   }
   
-  .button{
-    width:180px;
-    color:#000;
-    font-size:12px;
-    padding:12px 0;
-    border:0;
-    border-radius:20px;
-    outline:none;
-    margin-top:90px;
+  .text-overlay p {
+    font-size: 1.5rem;
+    line-height: .5;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2rem;
+  }
+    
+
+  .text-overlay {
     position: absolute;
-    left: 59.5%;
-    top: 36%;
-    transform: translate(-50%, -50%);
-}
-   
-#images {
+    bottom: 0;
+    left: 0;
+    margin: 50px 20px;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 150px 30px; /* increased margin-top to 150px */
+    color: #fff;
+    font-size: 1.5rem;
+    z-index: 1;
+  }
+
+  #images {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
   }
   
   .displayedImages {
     display: flex;
-    flex-wrap: nowrap; /* Set flex-wrap to nowrap to prevent wrapping */
+    flex-wrap: nowrap;
   }
   
-  .card1,
-  .card2,
-  .card3,
-  .card4 {
-    flex-basis: 50%;
+  .displayedImages img {
+    display: flex;
+    flex-wrap: wrap; /* Make sure images wrap to next line when necessary */
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Add some spacing between the images */
+    height:500px;
+    width:400px;
   }
-  
-  img {
-    height: 40%;
-    width: 40%;
+  .card1, .card2, .card3, .card4 {
+    flex: 0 auto;
+    margin-right: 20px;
+    margin-left: 50px;
+    
   }
-  
 
-  
+  .images{
+    margin-bottom: 0px;
+  }
 
+  .new{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+
+  }
