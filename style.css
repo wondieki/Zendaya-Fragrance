@@ -11,7 +11,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100vh;
   }
@@ -92,9 +92,12 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    margin: 150px 30px; 
+
     color: #fff;
     font-size: 1.5rem;
+    width:35%;
+    font-family: "Lucida Console", "Courier New", monospace;
+
   }
   #images {
     display: flex;
@@ -188,11 +191,25 @@ body {
   .search-container {
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+   
   
 }
 
 .search-form {
-    margin-left: 10px;
+  position: absolute;
+  top: 0;
+  margin-top: 50px;
+  right:6px;
+
+
+}
+#search-bar
+{
+  width: 80px;
+  height: 16px;
+  border-radius: 5px;
+
 }
 
 .cont {
