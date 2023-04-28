@@ -1,33 +1,5 @@
 //https://my-json-server.typicode.com/wondieki/project
 
-// const cards = document.querySelectorAll('.card1, .card2, .card3, .card4');
-
-// // Loop through each card
-// cards.forEach(card => {
-//   // Get the perfume name from the h5 element
-//   const perfumeName = card.querySelector('h5').textContent;
-
-//   // Fetch the perfume data from the API
-//   fetch('https://my-json-server.typicode.com/wondieki/project')
-//     .then(response => response.json())
-//     .then(data => {
-//       // Find the perfume object that matches the perfume name
-//       const perfume = data.find(item => item.name === perfumeName);
-
-//       // Get the perfume description and add it to the p element
-//       const perfumeDescription = perfume.description;
-//       card.querySelector('p').textContent = perfumeDescription;
-
-//       // Add click event listener to the title element
-//       const title = card.querySelector('h5');
-//       title.addEventListener('click', () => {
-//         // Toggle the class that shows or hides the description
-//         card.querySelector('p').classList.toggle('show');
-//       });
-//     })
-//     .catch(error => console.error(error));
-// });
-
 function search() {
   // get input value
   const input = document.getElementById("search-bar").value.toLowerCase();
@@ -45,9 +17,32 @@ function search() {
   });
 }
 
+// Get all the card elements
+const cardElements = document.querySelectorAll('.displayedImages > div');
 
-const shopNowBtn = document.getElementById("shop-now");
-shopNowBtn.addEventListener("click", () => {
-  // Add your code here to handle the click event
-  console.log("Shop now clicked");
+// Loop through each card element
+cardElements.forEach(card => {
+  // Create a new anchor element for the Shop Now button
+  const shopNowButton = document.createElement('a');
+  shopNowButton.href = '#';
+  shopNowButton.id = 'shop-now';
+  
+  // Create a new font awesome icon element for the shopping cart
+  const shoppingCartIcon = document.createElement('i');
+  shoppingCartIcon.classList.add('fas', 'fa-shopping-cart');
+  
+  // Append the shopping cart icon to the anchor element
+  shopNowButton.appendChild(shoppingCartIcon);
+  
+  // Create a new button node for the Shop Now button label
+  const shopNowLabel = document.createTextNode(' SHOP NOW');
+  
+  // Append the label text node to the anchor element
+  shopNowButton.appendChild(shopNowLabel);
+  
+  // Append the Shop Now button to the card element
+  card.appendChild(shopNowButton);
 });
+
+
+
