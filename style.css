@@ -181,9 +181,16 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    flex-grow: 2; /* Added property */
+    flex-grow: 1; /* Added property */
     justify-content: flex-end; /* Added property */
   }
   
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+}
 
+.search-form {
+    margin-left: 10px;
+}
   
