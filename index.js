@@ -44,3 +44,10 @@ function search() {
     }
   });
 }
+
+
+const shopNowBtn = document.getElementById("shop-now");
+shopNowBtn.addEventListener("click", () => {
+  // Add your code here to handle the click event
+  console.log("Shop now clicked");
+});

@@ -195,6 +195,19 @@ body {
     margin-left: 10px;
 }
 
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.img-pairs {
+  display: flex;
+  flex: 1;
+  align-items: stretch;
+}
 
-  
+.img-pairs img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
