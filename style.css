@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height:100%;
+  
   }
 
   .background-image {
@@ -94,14 +95,13 @@ body {
     margin: 150px 30px; 
     color: #fff;
     font-size: 1.5rem;
-    
   }
-  
-
   #images {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+    justify-content: center;
+    align-items: center;
   }
   
   .displayedImages {
@@ -111,34 +111,32 @@ body {
   
   .displayedImages img {
     display: flex;
-    flex-wrap: wrap; /* Make sure images wrap to next line when necessary */
-    justify-content: center; /* Center the images horizontally */
-    gap: 20px; /* Add some spacing between the images */
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px;
     height:400px;
     width:400px;
     border-radius: 20px;
   }
   .card1, .card2, .card3, .card4 {
   flex: 0 auto;
-  margin-right: 2px;
-  margin-left: 30px;
-  display: flex; /* use flexbox to arrange the image and text */
-  flex-direction: column; /* stack the image and text vertically */
-  align-items: center; /* center the items vertically */
-  text-align: center; /* center the content horizontally */
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
 }
-
 .card1 img, .card2 img, .card3 img, .card4 img {
-  width: 50%;
-  height: auto;
+  width: 300px;
+  height: 400px; /* change this value to the desired height */
   max-width: 100%;
   display: block;
   margin: 0 auto;
-  margin-bottom: 10px; /* add some space between the image and text */
+  margin-bottom: 10px;
 }
-
 .card-text {
-  max-width: 300px; /* limit the width of the text container */
+  max-width: 300px; 
 }
   
 
@@ -154,3 +152,38 @@ body {
     height: 20vh;
 
   }
+
+  .footer {
+    color: #6909a9;
+    text-align: center;
+    padding: 2em;
+    color:#050506;
+    background-color:rgb(247, 105, 105);;
+    line-height: 1.5; /* add this property */
+  }
+  
+  .footer .footer-title {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .footer .p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .footer p a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #050506;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 2; /* Added property */
+    justify-content: flex-end; /* Added property */
+  }
+  
+
+  
