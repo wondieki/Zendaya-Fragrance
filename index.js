@@ -17,32 +17,46 @@ function search() {
   });
 }
 
-// Get all the card elements
-const cardElements = document.querySelectorAll('.displayedImages > div');
 
-// Loop through each card element
-cardElements.forEach(card => {
-  // Create a new anchor element for the Shop Now button
-  const shopNowButton = document.createElement('a');
-  shopNowButton.href = '#';
-  shopNowButton.id = 'shop-now';
-  
-  // Create a new font awesome icon element for the shopping cart
-  const shoppingCartIcon = document.createElement('i');
-  shoppingCartIcon.classList.add('fas', 'fa-shopping-cart');
-  
-  // Append the shopping cart icon to the anchor element
-  shopNowButton.appendChild(shoppingCartIcon);
-  
-  // Create a new button node for the Shop Now button label
-  const shopNowLabel = document.createTextNode(' SHOP NOW');
-  
-  // Append the label text node to the anchor element
-  shopNowButton.appendChild(shopNowLabel);
-  
-  // Append the Shop Now button to the card element
-  card.appendChild(shopNowButton);
+
+
+
+// Get the button element
+const btnShopNow = document.querySelector('.btn-shop-now');
+
+// Define the screen size threshold
+const screenSizeThreshold = 768; // Example: 768 pixels
+
+// Add a class to the button element when the screen size is below the threshold
+function handleResponsiveShopNowButton() {
+  if (window.innerWidth < screenSizeThreshold) {
+    btnShopNow.classList.add('btn-shop-now--responsive');
+  } else {
+    btnShopNow.classList.remove('btn-shop-now--responsive');
+  }
+}
+
+// Call the function on page load and on window resize
+window.addEventListener('load', handleResponsiveShopNowButton);
+window.addEventListener('resize', handleResponsiveShopNowButton);
+
+
+function handleLikeClick(event) {
+  event.preventDefault();
+  const likeBtn = event.target;
+  const likeCount = likeBtn.nextElementSibling;
+  const currentCount = parseInt(likeCount.textContent);
+  likeCount.textContent = currentCount + 1;
+}
+
+const cards = document.querySelectorAll('.card1, .card2, .card3, .card4');
+cards.forEach((card) => {
+  const img = card.querySelector('img');
+  const likeBtn = document.createElement('a');
+  likeBtn.textContent = 'Like';
+  likeBtn.classList.add('like-btn');
+  likeBtn.addEventListener('click', handleLikeClick);
+  const likeCount = document.createElement('span');
+  likeCount.textContent = '0';
+  img.after(likeBtn, likeCount);
 });
-
-
-
