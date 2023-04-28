@@ -119,10 +119,27 @@ body {
     border-radius: 20px;
   }
   .card1, .card2, .card3, .card4 {
-    flex: 0 auto;
-    margin-right: 20px;
-    margin-left: 55px;
-  }
+  flex: 0 auto;
+  margin-right: 2px;
+  margin-left: 30px;
+  display: flex; /* use flexbox to arrange the image and text */
+  flex-direction: column; /* stack the image and text vertically */
+  align-items: center; /* center the items vertically */
+  text-align: center; /* center the content horizontally */
+}
+
+.card1 img, .card2 img, .card3 img, .card4 img {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; /* add some space between the image and text */
+}
+
+.card-text {
+  max-width: 300px; /* limit the width of the text container */
+}
   
 
   .images{
