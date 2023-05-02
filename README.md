@@ -3,7 +3,7 @@ This project displays the perfumes available in the store.The user  can shop now
 In addition the user can also search for the perfumes available in the store so as to be able to purchase.There is also a search  section that allows the user to perfumes.
 The user has the ability to like a specific perfume.
 
-###Live Link
+Live Link
 
-(https://wondieki.github.io/project/)
+https://wondieki.github.io/project/
 
