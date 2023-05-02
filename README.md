@@ -5,5 +5,5 @@ The user has the ability to like a specific perfume.
 
 Live Link
 
-https://wondieki.github.io/project/
+https://wondieki.github.io/Zendaya-Fragrance/
 
