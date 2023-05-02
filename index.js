@@ -12,11 +12,12 @@ document.addEventListener("DOMContentLoaded", function(){
     const url = "http://localhost:3000/perfumes/"
 })
 
-const perfumeTitles = document.querySelectorAll('.perfume-title');
+const perfumeTitles = document.querySelector('.perfume-title');
 
 perfumeTitles.forEach((title) => {
     title.addEventListener('click', (event) => {
         // handle the click event
+        console.log("Title clicked");
     });
 });
 
@@ -26,6 +27,7 @@ const perfumeDescription = document.querySelectorAll('.perfume-description');
 perfumeDescription.forEach(() => {
     description.addEventListener('mouseover', (event) => {
         // handle the mouseover event
+        console.log("Description mouseover");
     });
 });
 
