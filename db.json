@@ -3,31 +3,32 @@
     {
       "id": "1",
       "title": "Dior J'adore Eau de Parfum",
-      "top notes": "Pear, melon, magnolia, peach, Mandarin orange and bergamot.",
+      "top notes": "Pear, Mandarin orange and bergamot.",
       "description": "An iconic House of Dior perfume for women, J'adore Eau de Parfum is an irresistibly seductive floral composition.",
-      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      "image": "https://www.pinterest.com/pin/155303887591904653/"
+      
     },
     {
       "id": "2",
       "title": "Chanel Coco Mademoiselle Eau de Parfum",
       "top notes": "Patchouli and vetiver.",
       "description": "An absolutely modern composition with a strong yet surprisingly fresh character. Sparks of fresh and vibrant Orange immediately awaken the senses.",
-      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      "image": "https://www.pinterest.com/pin/158259374384028397/"
     },
    
     {
       "id": "3",
       "title": "Tom Ford Black Orchid Eau de Parfum",
-      "top notes": "Truffle, gardenia, black currant, Ylang-Ylang, jasmine, bergamot, Mandarin orange and Amalfi lemon.",
+      "top notes": "TTruffle, Mandarin orange and Amalfi lemon.",
       "description": "Black Orchid Eau De Parfum opens with aphrodisiacal black truffle and narcotic ylang ylang—touched with effervescent bergamot and bitter orange. Rum-soaked, sweet black plum surrounds the perfume‘s black orchid extract, while woody patchouli and creamy vanilla wrap the orchid in rich warmth.",
-      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      "image": "https://www.pinterest.com/pin/567242515580830990/"
     },
     {
       "id": "4",
-      "title": "Lancome La Vie Est Belle Eau de Parfum",
-      "top notes": "Blackcurrant and pear.",
+      "title": "Good Girl",
+      "top notes": "Blackcurrant Ylang-Ylang, jasmine, and pear.",
       "description": "This floral perfume entwines iris, patchouli, and Arabian jasmine sambac with sweet notes of orange blossom, warm vanilla, and spun sugar. ",
-      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+      "image": "https://www.pinterest.com/pin/182255116162680030/"
     }
 
   ]
