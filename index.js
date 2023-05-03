@@ -1,35 +1,40 @@
-// //https://my-json-server.typicode.com/wondieki/project
+// https://my-json-server.typicode.com/wondieki/Zendaya-Fragrance
 
 
 
-fetch('https://my-json-server.typicode.com/wondieki/project')
+fetch('https://my-json-server.typicode.com/wondieki/Zendaya-Fragrance/db')
 
   .then(response => response.json())
   .then(data => console.log(data))
   .catch(error => console.error(error));
 
 document.addEventListener("DOMContentLoaded", function(){
-    const url = "http://localhost:3000/perfumes/"
+    const url = "http://'https://my-json-server.typicode.com/wondieki/Zendaya-Fragrance/db':3000/perfumes/"
 })
 
-const perfumeTitles = document.querySelector('.perfume-title');
-
-perfumeTitles.forEach((title) => {
-    title.addEventListener('click', (event) => {
-        // handle the click event
-        console.log("Title clicked");
+document.addEventListener('DOMContentLoaded', () => {
+  const perfumeTitle = document.querySelectorAll('.perfume-title');
+  perfumeTitle.forEach((title) => {
+    title.addEventListener('click', () => {
+      fetch("https://my-json-server.typicode.com/wondieki/Zendaya-Fragrance/perfumes")
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error(error));
+      console.log("Title Clicked");
     });
+  });
 });
 
 
-const perfumeDescription = document.querySelectorAll('.perfume-description');
 
-perfumeDescription.forEach(() => {
-    description.addEventListener('mouseover', (event) => {
-        // handle the mouseover event
-        console.log("Description mouseover");
-    });
+const perfumeDescriptions = document.querySelectorAll('.perfume-description');
+
+perfumeDescriptions.forEach((description) => {
+  description.addEventListener('mouseover', (event) => {
+    console.log("Description mouseover");
+  });
 });
+
 
   function handleLike() {
     let numb = parseInt(document.getElementById("count").innerHTML);
@@ -37,4 +42,3 @@ perfumeDescription.forEach(() => {
     alert(document.getElementById("count").innerHTML );
     
   }
-
