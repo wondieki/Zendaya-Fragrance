@@ -8,5 +8,5 @@ Live Link
 https://wondieki.github.io/Zendaya-Fragrance/
 
 API
-https://my-json-server.typicode.com/wondieki/Zendaya-Fragrance
+https://my-json-server.typicode.com/wondieki/Zendaya-Fragrance/db
 
